@@ -27,7 +27,7 @@ jobs:
           ./gradlew assembleDebug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: dual-music-player-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
